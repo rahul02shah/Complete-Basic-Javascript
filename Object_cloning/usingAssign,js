@@ -1,0 +1,10 @@
+let Record = {
+    rahul :10,
+    amar :20,
+    mohan:30
+};
+
+let Clone = Object.assign({},Record);
+console.log(Clone);
+
+
